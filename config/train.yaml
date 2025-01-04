@@ -1,0 +1,16 @@
+dataset: "../data/dataset"
+logdir: "../models/logs"
+modeldir: "../models/checkpoints"
+
+params:
+  batch_size: 32
+  num_epochs: 100
+  lr: 0.001
+
+encoder:
+  input: "m+"
+  arch: "CNN"
+  depth: 4
+
+Tmax: 1.0
+seed: 42
